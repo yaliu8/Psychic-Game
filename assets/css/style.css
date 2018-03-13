@@ -1,0 +1,15 @@
+#userChoice,
+#computerChoice,
+#wins,
+#losses,
+#guessesSoFar, 
+#guessesLeft {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
+    line-height: 20px;
+
+}
+
+.none {
+    display: none;
+}
