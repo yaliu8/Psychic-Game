@@ -21,6 +21,7 @@ document.onkeyup = function(event) {
 if (userChoice === computerChoice) {
     wins ++;
     guessesSoFarElement.textContent = guessesSoFar += userChoice+", ";
+    guessesSoFar = "";
     }
 else if (userChoice !== computerChoice) {
     guessesLeft --;
@@ -29,7 +30,7 @@ if (guessesLeft === 0) {
     losses ++;
     guessesLeft = 10;
     guessesSoFarElement.textContent = guessesSoFar += userChoice+", ";
-
+    guessesSoFar = "";
 }
 }
     userChoiceElement.textContent = userChoice
