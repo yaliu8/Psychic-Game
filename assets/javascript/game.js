@@ -38,8 +38,8 @@ document.onkeyup = function(event) {
       guessesLeft --;
       guessesSoFarElement.textContent = guessesSoFar += userChoice +", ";
       if (guessesLeft === 0) {
-          losses ++;
-          start();
+        losses ++;
+        start();
       }
     }
   }
