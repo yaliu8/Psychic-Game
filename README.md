@@ -1,5 +1,7 @@
 # Psychic-Game
 
+Deployed: https://yaliu8.github.io/Psychic-Game/
+
 Rules of the Game:
 1. Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. 
 
